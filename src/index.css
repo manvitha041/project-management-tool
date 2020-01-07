@@ -24,3 +24,17 @@ textarea.materialize-textarea:focus:not([readonly]){
   border-color: #ec407a;
   box-shadow: none;
 }
+
+@media only screen and (max-width: 768px){
+  nav .brand-logo{
+    left: 24%;
+    font-size: 1.6rem;
+  }
+  nav ul a{
+    padding: 0px 8px;
+  }
+  .btn-floating{
+    margin-left: 10px !important;
+     margin-right: 0px !important;
+  }
+}
