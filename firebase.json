@@ -1,6 +1,7 @@
 {
   "hosting": {
-    "public": "dist",
+    "target":"uma-boutique",
+    "public": "build",
     "ignore": [
       "firebase.json",
       "**/.*",

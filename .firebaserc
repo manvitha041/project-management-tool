@@ -1,5 +1,11 @@
 {
-  "projects": {
-    "default": "marioplan-b30d3"
+  "targets": {
+    "marioplan-b30d3": {
+      "hosting": {
+        "uma-boutique": [
+          "uma-boutique"
+        ]
+      }
+    }
   }
 }

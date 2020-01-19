@@ -66,11 +66,11 @@ class CreateProject extends Component {
             ></textarea>
             <label htmlFor="content">Description</label>
           </div>
-          <div className="previewComponent">
+          {/* <div className="previewComponent">
             <input type="file" name="file" onChange={this.handleImageChange} />
             <button onClick={this.fileUploadHandler}>Upload</button>
             <div className="imgPreview">{$imagePreview}</div>
-          </div>
+          </div> */}
           <div className="input-field">
             <button className="btn pink lighten-1">Create</button>
           </div>
